@@ -1,0 +1,52 @@
+
+<html>
+  <head>
+    <title>Identify Your Objects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <center>
+      <div class="col-xs-12 col-sm-12" style="margin-bottom: 3px; margin-top: 3px;">
+        <h1 id="Heading">Identify Your Objects
+          <img src="logo.gif" height="70px">
+        </h1>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="col-xs-12 col-sm-6 Cam" id="Cam">
+        <h3 class="Webcam">Your Webcam</h3>
+        <div id="Camera"></div>
+        <button class="btn btn-info" onclick="TakePic();">Take Your Picture</button>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 Cam" id="Snap">
+        <h3 class="Webcam">Your Image</h3>
+        <div id="Photo"></div>
+        <button class="btn btn-success" onclick="Identify();">Identify Object</button>
+      </div>
+      <br>
+      <br>
+    </center>
+
+    <div class="col-xs-11 col-sm-11" id="Answer">
+      <h3>
+        <img src="blub.gif" height="50px">
+        <span id="Guess"></span>
+      </h3>
+    </div>
+
+<script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(250, 243, 168);
+    font-family: 'Caveat', cursive;
+}
+
+#Heading{
+    background-color: white;
+    border: 4px solid white;
+    box-shadow: 3px 3px 15px white;
+}
+
+.Webcam{
+    border: 2px whitesmoke;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 3px whitesmoke;
+    width: 350;
+    margin-bottom: 0px;
+}
+
+#Camera, #Photo{
+    border: 2px solid whitesmoke;
+    width: 350;
+    height: 300;
+    box-shadow: 2px 2px 18px whitesmoke;
+}
+
+.Cam button{
+    width: 350;
+    border: 4px solid whitesmoke;
+    box-shadow: 3px 3px 3px whitesmoke;
+}
+
+#Answer{
+    background-color: white;
+    border: 4px solid white;
+    box-shadow: 3px 3px 15px white;
+    text-align: left;
+    margin: 30px;
+    border-radius: 10px;
+}
